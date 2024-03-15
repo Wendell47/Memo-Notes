@@ -1,0 +1,111 @@
+:root{
+  --border-radius:0.6rem;	
+--vaadin-button-padding:1.6rem;
+--vaadin-button-border-radius:var(--border-radius);
+--vaadin-button-tertiary-padding:1.2rem;
+--vaadin-button-tertiary-border-radius:var(--border-radius);
+--vaadin-button-tertiary-background:white;
+--vaadin-button-tertiary-text-color:rgb(26, 26, 26);
+
+--vaadin-input-field-background:white;
+--vaadin-input-field-height:3rem;
+
+--vaadin-input-field-border-radius:var(--border-radius);
+
+
+
+
+
+
+}
+*{
+  box-sizing: border-box;
+}
+.Card{
+  background-color: #f9f9f9;
+  color:#545e68;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  flex: 1 0 17%;
+  min-width: max(10rem, 20%);
+  max-width: max(30rem, 29.99%);
+}
+
+.Card span{
+  letter-spacing: .1rem;
+  font-weight: 500;
+  font-size: clamp(.6rem,5vw,0.8rem);
+}
+.Card h3{
+  font-size: clamp(.7rem,5vw,1.2rem);
+}
+.cardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  padding: 1rem;
+
+}
+
+.notesOptionsBar{
+  width: -webkit-fill-available;
+  padding-bottom: 1rem;
+  padding-inline: 1rem;
+  border-bottom: 1px solid #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notesOptionsBar span{
+  font-size: 1.3rem;
+  
+}
+
+.main{
+  margin-inline: auto;
+  background-color: white;
+ border-radius: 1rem;
+ box-shadow: 0px 20px 20px 0px #ededed;
+  overflow: hidden;
+}
+.header,.header div{
+  display: flex;
+  align-items: center;
+}
+.header{
+  width:100%;
+  gap: 14px;
+  justify-content: space-between;
+  background: #fafafa;
+  padding-bottom: 1rem;
+  
+  padding: 1rem;
+}
+
+.Profile{
+  gap:0.6rem;
+}
+
+.header span{
+  font-weight: 800;
+  
+}
+
+.header img{
+  width: clamp(2rem,10vw,3rem);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ #outlet {
+  height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  padding-top:clamp(2rem,5vw,5rem);
+  background: #f4f4f4;
+  
+}
